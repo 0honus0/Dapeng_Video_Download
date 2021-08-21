@@ -2,7 +2,8 @@ import requests
 import json
 from time import sleep
 
-s = '_uab_collina=162790230655834173919529; _sensors_dapeng_anonymous_uuid=%223b757e4d-c0ff-41f7-a5f5-a4703068ba39%22; _pk_ref.3.fd4d=%5B%22%22%2C%22%22%2C1627902309%2C%22https%3A%2F%2Fblog.csdn.net%2Fsakura_ting%2Farticle%2Fdetails%2F119236876%22%5D; _pk_ses.3.fd4d=1; enter_dapeng=enter_dapeng; dptoken=7bf24792-47bf-4e83-a1cc-11b8d7a610b5; _sensors_dapeng_login_id=%22k0epfvneff%22; userinfo=%7B%22userId%22%3A%22k0epfvneff%22%2C%22nickname%22%3A%22May0919%22%2C%22avatar%22%3A%22https%3A%2F%2Fimage.dapengjiaoyu.com%2Fimages%2Favatars%2F28avatar.jpg%22%2C%22dpAccount%22%3A%22dp65239857%22%2C%22mobile%22%3A%2213177322377%22%2C%22loginName%22%3A%22May0919%22%2C%22studentSatusId%22%3Anull%7D; looyu_id=7925bb63ebc56565de0dabde52486426_20004236%3A2; looyu_20004236=v%3A0acf59f8652811748bbe4ab8e5e0ab8e%2Cref%3A%2Cr%3A%2Cmon%3A//m6815.talk99.cn/monitor%2Cp0%3Ahttps%253A//www.dapengjiaoyu.cn/personal-center/course/formal%253FuserId%253Dk0epfvneff%2526faid%253D3b757e4d-c0ff-41f7-a5f5-a4703068ba39%2526said%253D3b757e4d-c0ff-41f7-a5f5-a4703068ba39%2526fuid%253Dk0epfvneff%2526suid%253D%2526d%253D0%2526suu%253De70c047f-fd91-44d7-9cfd-57fc76936ae0%2526suc%253D1%2526college%253Dj5m48deg; _99_mon=%5B0%2C0%2C0%5D; _pk_id.3.fd4d=14718c05a40a3094.1627902309.1.1627906420.1627902309.'
+#cookies
+s = ''
 
 #处理cookies的方式
 cookies = {}
