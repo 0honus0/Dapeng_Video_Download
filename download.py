@@ -51,7 +51,7 @@ def spider(url,className):
             test=3
             while not flag_0 and test>0:
                 try:
-                    ts = requests.get(url=ts_url).contenty
+                    ts = requests.get(url=ts_url).content
                     flag_0=True
                 except:
                     test-=1
